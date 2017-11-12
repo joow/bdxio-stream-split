@@ -41,6 +41,32 @@ Once all the videos have been imported you just have to :
   - add all videos to a specific playlist
   - make them public _(they are private by default in case something go wrong)_
 
+## Configuration
+
+`config` folder contains configuration files.  
+By default `Node.js` runs in development mode so `default.json` then `developmement.json` configuration files are used.  
+You can easily add a new configuration file and then start the application using `NODE_ENV` environment variable to use your new configuration file (_default.json will still be loaded first_).
+
+Here is the list of the existing configuration parameters :
+
+```json
+{
+  // download the full stream if set to true
+  "download": true/false,
+  // split stream video file if set to true
+  "split": true/false,
+  // upload splitted videos file if set to true
+  "upload": true/false,
+  "credentials": {
+    // client ID of the Google application
+    "client_id": "***",
+    // client secret of the Google application
+    "client_secret": "***",
+    // redirect URI to retrieve the access token (for now changing it will break the upload !)
+    "redirect_uri": "http://localhost:5000/oauth2callback"
+}
+```
+
 ## Contribute
 
 PRs accepted.
