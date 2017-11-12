@@ -16,7 +16,7 @@ const opn = require('opn');
 const prettyBytes = require('pretty-bytes');
 
 const VIDEOS_PATH = `${__dirname}/videos`;
-const FFMPEG_TIME_FORMAT = 'h:mm:ss';
+const FFMPEG_TIME_FORMAT = 'H:mm:ss';
 const YEAR = config.has('year') ? config.get('year') : new Date().getFullYear();
 
 const parseTime = time => moment(time, 'h[h]mm[m]ss[s]');
