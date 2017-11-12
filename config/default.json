@@ -1,0 +1,12 @@
+{
+  "playlist": "BDX I/O 2017",
+  "download": true,
+  "split": true,
+  "upload": true,
+  "license": "CC",
+  "credentials": {
+    "client_id": "***",
+    "client_secret": "***",
+    "redirect_uri": "http://localhost:5000/oauth2callback"
+  }
+}

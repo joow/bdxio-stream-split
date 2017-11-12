@@ -1,0 +1,27 @@
+{
+  "name": "bdxio-stream-split",
+  "version": "1.0.0",
+  "description": "Split BDX I/O YouTube live streams into speakers conferences",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node .",
+    "lint": "prettier --single-quote --write *.js"
+  },
+  "dependencies": {
+    "config": "^1.28.1",
+    "csv-parse": "^2.0.0",
+    "googleapis": "^22.2.0",
+    "lien": "^3.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "opn": "^5.1.0",
+    "pretty-bytes": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "prettier": "^1.8.2"
+  }
+}
