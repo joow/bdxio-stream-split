@@ -49,7 +49,7 @@ You can easily add a new configuration file and then start the application using
 
 Here is the list of the existing configuration parameters :
 
-```json
+```javascript
 {
   // download the full stream if set to true
   "download": true/false,
