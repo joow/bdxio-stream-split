@@ -6,8 +6,8 @@
 
 First you'll need two runtime requirements :
 
-    - [youtube-dl](https://rg3.github.io/youtube-dl/), used to download conferences streams
-    - [ffpmeg](https://ffmpeg.org/) v3.4+, used to split streams
+  - [youtube-dl](https://rg3.github.io/youtube-dl/), used to download conferences streams
+  - [ffpmeg](https://ffmpeg.org/) v3.4+, used to split streams
 
 Then you can install dependencies using `yarn` or `npm install`.
 
