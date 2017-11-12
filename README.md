@@ -51,6 +51,8 @@ Here is the list of the existing configuration parameters :
 
 ```javascript
 {
+  // by default the application will use the current year but you can override it
+  "year": 2016,
   // download the full stream if set to true
   "download": true/false,
   // split stream video file if set to true
